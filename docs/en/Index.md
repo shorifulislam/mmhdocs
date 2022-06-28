@@ -52,46 +52,11 @@ Application Modules provides pre-built application functionalities;
 
 See the [Application Modules](Modules/Index.md) document for all pre-built modules.
 
-### Startup Templates
-
-The [Startup templates](Startup-Templates/Index.md) are pre-built Visual Studio solution templates. You can create your own solution based on these templates to **immediately start your development**.
-
-## Books
-
-### Mastering ABP Framework
-
-![abp-book](images/abp-book.png)
-
-*Mastering ABP Framework* is an ultimate guide to get started and expertise with the ABP Framework. It is authored by Halil İbrahim Kalkan, the creator and the lead developer of the ABP Framework.
-
-**[You can order it from Amazon now](https://www.amazon.com/Mastering-ABP-Framework-maintainable-implementing-dp-1801079242/dp/1801079242)!**
-
-### Free E-Book: Implementing Domain Driven Design
-
-![Implementing Domain Driven Design](images/implementing-domain-driven-design-book.png)
-
-A **practical guide** for implementing Domain Driven Design (DDD). While the implementation details are **based on the ABP Framework** infrastructure, the basic concepts, principles and models can be applied to any solution, even if it is not a .NET solution.
-
-**[Click here to get your free copy](https://abp.io/books/implementing-domain-driven-design?ref=doc).**
-
-## ABP Community
-
 ### The Source Code
 
-ABP is hosted on GitHub. See [the source code](https://github.com/abpframework).
+MMH is hosted on GitHub. See [the source code](https://github.com/abpframework).
 
-### ABP Community Web Site
-
-The [ABP Community](https://community.abp.io/) is a website to publish articles and share knowledge about the ABP Framework. You can also create content for the community!
-
-### Blog
-
-Follow the [ABP Blog](https://blog.abp.io/) to learn the latest happenings in the ABP Framework.
-
-### Samples
-
-See the [sample projects](Samples/Index.md) built with the ABP Framework.
 
 ### Want to Contribute?
 
-ABP is a community-driven open source project. See [the contribution guide](Contribution/Index.md) if you want to be a part of this project.
+MMH is a community-driven open source project. See [the contribution guide](Contribution/Index.md) if you want to be a part of this project.
