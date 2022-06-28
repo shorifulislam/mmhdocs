@@ -16,7 +16,7 @@ MMH Framework can work with any UI framework, while the following frameworks are
 
 ### Database Provider Options
 
-ABP Framework can work with any database provider, while the following providers are supported out of the box:
+MMH Framework can work with any database provider, while the following providers are supported out of the box:
 
 <img width="500" src="images/db-options.png">
 
