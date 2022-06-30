@@ -1,62 +1,41 @@
-# MMH Documentation
+# ASP.NET Zero Documentation
 
-ABP Framework offers an **opinionated architecture** to build enterprise software solutions with **best practices** on top of the **.NET** and the **ASP.NET Core** platforms. It provides the fundamental infrastructure, production-ready startup templates, modules, themes, tooling, guides and documentation to implement that architecture properly and **automate the details** and repetitive works as much as possible.
+## Introduction
 
-## Getting Started
+ASP.NET Zero is a starting point for new web applications with a **modern UI** and **SOLID architecture**. It implements basic/common requirements of a **line of business applications**. You get it's **source code** and develop your business application on top of it for saving your valuable time to **focus on your own business code**.
 
-* [Quick Start](Tutorials/Todo/Overall.md) is a single-part, quick-start tutorial to build a simple application with the ABP Framework. Start with this tutorial if you want to quickly understand how ABP works.
-* [Getting Started](Getting-Started.md) guide can be used to create and run ABP based solutions with different options and details.
-* [Web Application Development Tutorial](Tutorials/Part-1.md) is a complete tutorial to develop a full stack web application with all aspects of a real-life solution.
+## Project Types
 
-### UI Framework Options
+ASP.NET Zero has multiple architecture options. Select the one you want to prefer:
 
-MMH Framework can work with any UI framework, while the following frameworks are supported out of the box:
+* [ASP.NET Core & Angular](AspNetCore-Angular.md)
+* [ASP.NET Core MVC & JQuery](AspNetCore-MVC.md)
+* [ASP.NET MVC 5.x & AngularJS 1.x](AspNet-MVC-AngularJS.md)
+* [ASP.NET MVC 5.x & JQuery](AspNet-MVC.md)
+* [Xamarin / Mobile](Xamarin.md)
+* [GraphQL](GraphQL.md)
 
-<img width="500" src="images/ui-options.png">
+## Miscellaneous
 
-### Database Provider Options
+### Power Tools
 
-MMH Framework can work with any database provider, while the following providers are supported out of the box:
+ASP.NET Zero Power Tools, helps you to create an entity and its corresponding layers from database to the user interface. It is a Visual Studio Extension hosted on Visual Studio Marketplace. [Go to Power Tools](https://marketplace.visualstudio.com/items?itemName=Volosoft.AspNetZeroPowerTools)  or [see how to use it](Rapid-Application-Development.md).
 
-<img width="500" src="images/db-options.png">
+### Change Logs
 
-## Exploring the Documentation
+See the [change logs](Change-Logs.md) to learn the features released with the previous versions.
 
-ABP has a **comprehensive documentation** that not only explains the ABP Framework, but also includes **guides** and **samples** to help you on creating a **maintainable solution** by introducing and discussing common **software development principle and best practices**.
+### Road Map
 
-### Architecture
+See the [road map](Road-Map.md) for some planned features for next releases.
 
-ABP offers a complete, modular and layered software architecture based on [Domain Driven Design](Domain-Driven-Design.md) principles and patterns. It also provides the necessary infrastructure to implement this architecture.
+### Old Documents
 
-* See the [Modularity](Module-Development-Basics.md) document to understand the module system.
-* [Implementing Domain Driven Design book](https://abp.io/books/implementing-domain-driven-design?ref=doc) is an ultimate guide for who want to understand and implement the DDD with the ABP Framework.
-* [Microservice Architecture](Microservice-Architecture.md) document explains how ABP helps to create a microservice solution.
-* [Multi-Tenancy](Multi-Tenancy.md) document introduces multi-tenancy and explores the ABP multi-tenancy infrastructure.
+[Click here](Old-Documents.md) for documents older than v6.2.
 
-### Infrastructure
+## External Links
 
-There are a lot of features provided by the ABP Framework to achieve real world scenarios easier, like [Event Bus](Event-Bus.md), [Background Job System](Background-Jobs.md), [Audit Logging](Audit-Logging.md), [BLOB Storing](Blob-Storing.md), [Data Seeding](Data-Seeding.md), [Data Filtering](Data-Filtering.md).
+ASP.NET Zero is developed based on the **ASP.NET Boilerplate** web application framework and the **Metronic** UI Theme. So, you can refer to their web sites to learn more about capabilities of ASP.NET Zero, other details and UI options.
 
-### Cross Cutting Concerns
-
-ABP also simplifies (and even automates wherever possible) cross cutting concerns and common non-functional requirements like [Exception Handling](Exception-Handling.md), [Validation](Validation.md), [Authorization](Authorization.md), [Localization](Localization.md), [Caching](Caching.md), [Dependency Injection](Dependency-Injection.md), [Setting Management](Settings.md), etc. 
-
-### Application Modules
-
-Application Modules provides pre-built application functionalities;
-
-* [**Account**](Modules/Account.md): Provides UI for the account management and allows user to login/register to the application.
-* **[Identity](Modules/Identity.md)**: Manages organization units, roles, users and their permissions, based on the Microsoft Identity library.
-* [**OpenIddict**](Modules/OpenIddict.md): Integrates to OpenIddict.
-* [**Tenant Management**](Modules/Tenant-Management.md): Manages tenants for a [multi-tenant](Multi-Tenancy.md) (SaaS) application.
-
-See the [Application Modules](Modules/Index.md) document for all pre-built modules.
-
-### The Source Code
-
-MMH is hosted on GitHub. See [the source code](https://github.com/abpframework).
-
-
-### Want to Contribute?
-
-MMH is a community-driven open source project. See [the contribution guide](Contribution/Index.md) if you want to be a part of this project.
+- [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents)
+- [Metronic](http://www.keenthemes.com/preview/metronic/)

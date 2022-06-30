@@ -1,20 +1,15 @@
 # Getting Started
 
-````json
-//[doc-params]
-{
-    "UI": ["MVC"],
-    "DB": ["EF"],
-    "Tiered": ["Yes", "No"]
-}
-````
+This document guides you through creating and running an ASP.NET Zero project. This document assumes that you've already purchased an [ASP.NET Zero license](https://aspnetzero.com/Pricing) and have an active ASP.NET Zero account.
 
-> This document assumes that you prefer to use **{{ UI_Value }}** as the UI framework and **{{ DB_Value }}** as the database provider. For other options, please change the preference on top of this document.
+## Project Types
 
-## Contents
+ASP.NET Zero provides four different architecture options. Please select the one you want to use and follow its Getting Started document.
 
-This tutorial explains how to **create and run** a new web application using the ABP Framework. Follow the steps below;
+-   [ASP.NET Core MVC](../../aspnet-core-mvc/latest/Getting-Started-Core)
+-   [ASP.NET Core & Angular](../../aspnet-core-angular/latest/Getting-Started-Angular)
+-   [ASP.NET MVC 5.x & jQuery](../../aspnet-mvc-jquery/latest/Getting-Started-Mvc-Angularjs)
+-   [ASP.NET MVC 5.x & AngularJS](../../aspnet-mvc-angularjs/latest/Getting-Started-Mvc-Angularjs)
 
-1. [Setup your development environment](Getting-Started-Setup-Environment.md)
-2. [Creating a new solution](Getting-Started-Create-Solution.md)
-3. [Running the solution](Getting-Started-Running-Solution.md)
+### MacOS Platform
+-   [ASP.NET Core & Angular on MacOSX](../../aspnet-core-angular/latest/Getting-Started-MacOSX)
