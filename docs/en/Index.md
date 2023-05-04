@@ -4,8 +4,8 @@ MMH Framework offers an **opinionated architecture** to build enterprise softwar
 
 ## Getting Started
 
-* [Quick Start](Tutorials/Todo/Overall.md) is a single-part, quick-start tutorial to build a simple application with the ABP Framework. Start with this tutorial if you want to quickly understand how ABP works.
-* [Getting Started](Getting-Started.md) guide can be used to create and run ABP based solutions with different options and details.
+* [Quick Start](Tutorials/Todo/Overall.md) is a single-part, quick-start tutorial to build a simple application with the ABP Framework. Start with this tutorial if you want to quickly understand how our works.
+* [Getting Started](Getting-Started.md) guide can be used to create and run our based solutions with different options and details.
 * [Web Application Development Tutorial](Tutorials/Part-1.md) is a complete tutorial to develop a full stack web application with all aspects of a real-life solution.
 
 ### UI Framework Options
@@ -22,24 +22,22 @@ MMH Framework can work with any database provider, while the following providers
 
 ## Exploring the Documentation
 
-ABP has a **comprehensive documentation** that not only explains the ABP Framework, but also includes **guides** and **samples** to help you on creating a **maintainable solution** by introducing and discussing common **software development principle and best practices**.
+MMH has a **comprehensive documentation** that not only explains the MMH Framework, but also includes **guides** and **samples** to help you on creating a **maintainable solution** by introducing and discussing common **software development principle and best practices**.
 
 ### Architecture
 
-ABP offers a complete, modular and layered software architecture based on [Domain Driven Design](Domain-Driven-Design.md) principles and patterns. It also provides the necessary infrastructure to implement this architecture.
+MMH architecture offers a complete, modular and layered software architecture based on [Domain Driven Design](Domain-Driven-Design.md) principles and patterns. It also provides the necessary infrastructure to implement this architecture.
 
 * See the [Modularity](Module-Development-Basics.md) document to understand the module system.
-* [Implementing Domain Driven Design book](https://abp.io/books/implementing-domain-driven-design?ref=doc) is an ultimate guide for who want to understand and implement the DDD with the ABP Framework.
-* [Microservice Architecture](Microservice-Architecture.md) document explains how ABP helps to create a microservice solution.
-* [Multi-Tenancy](Multi-Tenancy.md) document introduces multi-tenancy and explores the ABP multi-tenancy infrastructure.
+* [Multi-Tenancy](Multi-Tenancy.md) document introduces multi-tenancy and explores the MMH multi-tenancy infrastructure.
 
 ### Infrastructure
 
-There are a lot of features provided by the ABP Framework to achieve real world scenarios easier, like [Event Bus](Event-Bus.md), [Background Job System](Background-Jobs.md), [Audit Logging](Audit-Logging.md), [BLOB Storing](Blob-Storing.md), [Data Seeding](Data-Seeding.md), [Data Filtering](Data-Filtering.md).
+There are a lot of features provided by the MMH Framework to achieve real world scenarios easier, like [Event Bus](Event-Bus.md), [Background Job System](Background-Jobs.md), [Audit Logging](Audit-Logging.md), [BLOB Storing](Blob-Storing.md), [Data Seeding](Data-Seeding.md), [Data Filtering](Data-Filtering.md).
 
 ### Cross Cutting Concerns
 
-ABP also simplifies (and even automates wherever possible) cross cutting concerns and common non-functional requirements like [Exception Handling](Exception-Handling.md), [Validation](Validation.md), [Authorization](Authorization.md), [Localization](Localization.md), [Caching](Caching.md), [Dependency Injection](Dependency-Injection.md), [Setting Management](Settings.md), etc. 
+MMH also simplifies (and even automates wherever possible) cross cutting concerns and common non-functional requirements like [Exception Handling](Exception-Handling.md), [Validation](Validation.md), [Authorization](Authorization.md), [Localization](Localization.md), [Caching](Caching.md), [Dependency Injection](Dependency-Injection.md), [Setting Management](Settings.md), etc. 
 
 ### Application Modules
 
@@ -52,11 +50,3 @@ Application Modules provides pre-built application functionalities;
 
 See the [Application Modules](Modules/Index.md) document for all pre-built modules.
 
-### The Source Code
-
-MMH is hosted on GitHub. See [the source code](https://github.com/abpframework).
-
-
-### Want to Contribute?
-
-MMH is a community-driven open source project. See [the contribution guide](Contribution/Index.md) if you want to be a part of this project.
